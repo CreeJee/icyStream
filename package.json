@@ -1,0 +1,26 @@
+{
+  "name": "icy-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreeJee/icyStream.git"
+  },
+  "keywords": [
+    "icy"
+  ],
+  "author": "CreeJee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreeJee/icyStream/issues"
+  },
+  "homepage": "https://github.com/CreeJee/icyStream#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "icy": "^2.1.0"
+  }
+}
