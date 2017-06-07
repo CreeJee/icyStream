@@ -6,7 +6,7 @@ app.get('/',function(req,res,next) {
     res.send('main');
 });
 app.get('/live',function(req, res, next) {
-    res.send('<audio controls><source src="/live.mp3" type="audio/mpeg"></audio>')
+    res.send('<audio controls autoplay><source src="/live.mp3" type="audio/mpeg"></audio>')
 })
 app.get('/live.mp3',function(req,res,next) {
     // connect to the remote stream 
